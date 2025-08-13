@@ -1,0 +1,6 @@
+[submodule "external/openqkdsecurity"]
+	path = external/openqkdsecurity
+	url = https://github.com/Optical-Quantum-Communication-Theory/openQKDsecurity
+[submodule "external/libradtranpy"]
+	path = external/libradtranpy
+	url = https://github.com/LSSTDESC/libradtranpy
