@@ -1,0 +1,12 @@
+numpy
+matplotlib
+customtkinter
+tkcalendar
+qiskit
+qiskit-aer
+matlab
+cryptomite
+passpredict
+cdsapi
+xarray
+python-dotenv
