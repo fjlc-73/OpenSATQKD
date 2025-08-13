@@ -18,17 +18,18 @@ This repository contains the source code for **OpenSATQKD**, a framework for mod
 ```bash
 git clone https://github.com/fjlc-73/OpenSATQKD.git
 cd OpenSATQKD
+git submodule update --init --recursive
 ```
 2. **Create and activate a virtual environment:**
  ```bash
-conda create -n opensatqkd python=3.10
+conda create -n opensatqkd python=3.10.18
 conda activate opensatqkd
 ```
 3. **Install Python dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
-4. **Install [libradtran](https://github.com/LSSTDESC/libradtranpy) and its Python wrapper** following the instructions on the GitHub page.
+4. **Install [libRadtran](https://github.com/LSSTDESC/libradtranpy) and its Python wrapper** following the instructions on the GitHub page.
 5. **Install [openQKDsecurity](https://github.com/Optical-Quantum-Communication-Theory/openQKDsecurity)** for MATLAB-based computations:
    - Install MATLAB libraries **CVX** and **QETLAB**.
    - Install the MATLAB Python API by opening MATLAB and running:
