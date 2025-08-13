@@ -58,6 +58,18 @@ python main.py
 ```
 **Optional:** Recreate Micius experiments  
 To do this, click **Load Preset** in the GUI and select any pass from the `micius_data` folder (`.json` files).
+> **⚠️ Note:** To automatically recreate past mission passes with realistic weather, make sure to enable the optional automatic weather feature by setting up the Copernicus CDS and ADS API keys as described below.
+> 
+**Optional:** Recreate passes from past missions using automatic weather  
+To use this feature, you need API access from Copernicus Climate and Atmosphere Data Stores:
+
+1. Create an account at [Copernicus CDS](https://cds.climate.copernicus.eu/), accept the terms of use for [ERA5 Single Levels](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download), and get your API key from your profile.  
+2. Create an account at [Copernicus ADS](https://ads.atmosphere.copernicus.eu/), accept the terms for [CAMS Global Reanalysis EAC4](https://ads.atmosphere.copernicus.eu/datasets/cams-global-reanalysis-eac4?tab=download), and get your API key.  
+3. Create a `.env` file in the project root and add your keys as:
+```text
+CDS_API_KEY=<your_cds_api_key>
+ADS_API_KEY=<your_ads_api_key>
+```
 
 
 ## Running the Educational Component
@@ -80,4 +92,8 @@ python ground.py"
 python satellite.py
 ```
 > **Note:** Simulation parameters can be modified in `config_educ.py` located inside the `educational` folder before running the scripts.
+
+### Finding public TLE data
+We recommend using [Space-Track](https://www.space-track.org) for satellite TLE data. An account is required to access TLE information.
+
 
