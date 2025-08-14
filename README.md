@@ -1,4 +1,4 @@
-# OpenSATQKD
+# 🛰️ OpenSATQKD ⚛️🔑
 
 This repository contains the source code for **OpenSATQKD**, a framework for modeling and evaluating satellite QKD missions. The simulator calculates all key quantities from realistic experimental parameters and open-source tools (no precomputed data or proprietary software needed). OpenSATQKD integrates orbital propagation, free-space link losses, optical hardware characterization, noisy quantum channel simulation, post-processing, and secret key rate estimation in a single platform. It’s designed to support mission planning, performance studies, and educational demonstrations in satellite-based quantum communication.
 
