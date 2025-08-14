@@ -8,7 +8,7 @@ This repository contains the source code for **OpenSATQKD**, a framework for mod
 
 **Requirements:**
 
-- Python 3.10 or above (we recommend using Conda to create a virtual environment)
+- Python 3.10 (we recommend using Conda to create a virtual environment)
 - Linux is recommended (Libradtran is only officially supported in Linux). Windows can work via WSL.
 - MATLAB (with CVX and QETLAB libraries) and the MATLAB Python API
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 cd (fullfile(matlabroot,'extern','engines','python'))
 system('python -m pip install .')
 ```
-6. **Other external dependencies:**
+**Other external dependencies:**
    - [Cascade Python](https://github.com/brunorijsman/cascade-python) is used but not included as a submodule because minor modifications were made for compatibility with this project.
   
 
