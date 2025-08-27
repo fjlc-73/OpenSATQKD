@@ -93,7 +93,13 @@ python satellite.py
 ```
 > **Note:** Simulation parameters can be modified in `config_educ.py` located inside the `educational` folder before running the scripts.
 
-### Finding public TLE data
-We recommend using [Space-Track](https://www.space-track.org) for satellite TLE data. An account is required to access TLE information.
+## Finding public TLE data
+We recommend using [Space-Track](https://www.space-track.org) for both historic and new satellite TLE data. An account is required to access TLE information.
 
+## Related Publication
 
+A manuscript related to this repository has been submitted to the  
+**IEEE Journal on Selected Areas in Communications (JSAC)**.
+
+**Authors:** Javier López-Cerezo, Cristina Alcaraz, and Javier López  
+**Status:** Submitted (under review)
