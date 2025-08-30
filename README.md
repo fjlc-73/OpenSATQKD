@@ -72,7 +72,7 @@ ADS_API_KEY=<your_ads_api_key>
 ```
 
 
-## Running the Educational Component
+## Running the Protocol Tracing Component
 
 1. Open **two separate PowerShell windows**.
 2. In both, navigate to the educational folder:
