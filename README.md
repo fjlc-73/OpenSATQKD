@@ -1,6 +1,6 @@
 # 🛰️ OpenSATQKD ⚛️🔑
 
-This repository contains the source code for **OpenSATQKD**, a framework for modeling and evaluating satellite QKD missions. The simulator calculates all key quantities from realistic experimental parameters and open-source tools, integrating orbital propagation, free-space link losses, optical hardware characterization, noisy quantum channel simulation, post-processing, and secret key rate estimation in a single platform. It’s designed to support mission planning, performance studies, and educational demonstrations in satellite-based quantum communication.
+This repository contains the source code for **OpenSATQKD**, a framework for modeling and evaluating satellite QKD missions. The simulator calculates all key quantities from realistic experimental parameters and open-source tools, integrating orbital propagation, free-space link losses, optical hardware characterization, noisy quantum channel simulation, post-processing, and secret key rate estimation in a single platform. It’s designed to support mission planning, performance studies, and verbose protocol demonstrations in satellite-based quantum communication.
 
 ---
 
@@ -75,9 +75,9 @@ ADS_API_KEY=<your_ads_api_key>
 ## Running the Protocol Tracing Component
 
 1. Open **two separate PowerShell windows**.
-2. In both, navigate to the educational folder:
+2. In both, navigate to the tracing folder:
 ```bash
-cd C:\path\to\project_root\educational
+cd C:\path\to\project_root\tracing
 ```
 3. **Set the `PYTHONPATH` environment variable to the project root folder:**
 ```bash
@@ -91,7 +91,7 @@ python ground.py"
 ```bash
 python satellite.py
 ```
-> **Note:** Simulation parameters can be modified in `config_educ.py` located inside the `educational` folder before running the scripts.
+> **Note:** Simulation parameters can be modified in `config_educ.py` located inside the `tracing` folder before running the scripts.
 
 ## Finding public TLE data
 We recommend using [Space-Track](https://www.space-track.org) for both historic and new satellite TLE data. An account is required to access TLE information.
